@@ -36,16 +36,31 @@ Predict **student engagement** levels in an online environment using a machine l
     -   Precision
     -   F1 Score
     -   AUC (Area Under the ROC Curve)
+-   **Dataset Size**:
+    -   Training Data: 80 samples
+    -   Test Data: 20 samples
 
 ---
 
 ## Results
 
+### Model Training Performance (Cross-Validation)
+
+| Metric        | Value  |
+| ------------- | ------ |
+| **Accuracy**  | 0.9200 |
+| **Precision** | 0.9381 |
+| **Recall**    | 0.8286 |
+| **F1 Score**  | 0.8707 |
+| **ROC AUC**   | 0.9780 |
+
+### Model Validation Performance (Test Data)
+
 | Metric        | Value  |
 | ------------- | ------ |
 | **Accuracy**  | 0.9000 |
-| **Recall**    | 0.8571 |
 | **Precision** | 0.8571 |
+| **Recall**    | 0.8571 |
 | **F1 Score**  | 0.8571 |
 | **AUC**       | 0.9560 |
 
